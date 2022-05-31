@@ -10,7 +10,9 @@ export interface IUSER{
 }
 
 export interface IArticle{
-   
+   artId: number,
+   title?: string,
+   content?: string
 }
 
 export interface IBoard{
